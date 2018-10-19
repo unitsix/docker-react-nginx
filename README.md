@@ -54,16 +54,13 @@ my-app
     └── registerServiceWorker.js
 ```
 
-
-##### npm start
+##### `npm start`
 
 Runs the app in development mode in port 3000, you will need to map the port for your docker.
 
-##### npm run build
+##### `npm run build`
 
 Builds the app for production to the build folder.
-
-If you have added the code above to your package.json it will also make a copy to var/www/ which is served up on port 80 by apache.
 
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
